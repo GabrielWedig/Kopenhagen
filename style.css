@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  font-size: 20px;
+  margin: 0;
+  background-color: rgb(253, 240, 240);
+}
+
+header {
+  background-color: black;
+  height: 115px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 150px;
+  position: fixed;
+  z-index: 1;
+}
+
+header > nav > a,
+.rodape-col > a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
+  font-size: 17px;
+}
+
+header > nav > a:hover,
+.rodape-col > a:hover {
+  color: pink;
+  cursor: pointer;
+}
+
+header > img {
+  width: 100px;
+}
+
+h3 {
+  font-size: 50px;
+  margin: 70px 0 50px 0;
+}
+
+section {
+  padding: 0 150px;
+}
+
+.slogan {
+  position: absolute;
+  color: white;
+  top: 20%;
+}
+
+.slogan > h1 {
+  font-size: 120px;
+  font-weight: bold;
+  color: white;
+  margin: 100px 0 80px 0;
+}
+
+.slogan > h1 > span {
+  color: rgb(255, 164, 180);
+}
+
+.slogan > h2 {
+  font-size: 22px;
+  font-style: italic;
+}
+
+/* .slogan > button {
+  font-family: "Roboto", sans-serif;
+  border-radius: 15px;
+  background-color: pink;
+  padding: 20px 30px;
+  font-size: 20px;
+  border: none;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+} */
+
+.first-section {
+  padding-top: 115px;
+}
+
+.estadio-img {
+  width: 100%;
+  height: 100vh;
+}
+
+/* patrocinadores */
+.patrocinador {
+  width: 60px;
+  height: 60px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+  margin-right: 10px;
+}
+
+.encantos {
+  background: url("./encantos.jpeg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.flash {
+  background: url("./flash.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.manu {
+  background: url("./manu.jpeg");
+  background-size: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.kbau {
+  background: url("./kbau.jpg");
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ec1f26;
+}
+
+.goplay {
+  background: url("./goplay.jpeg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.topcell {
+  background: url("./topcell.jpg");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.bekos {
+  background: url("./bekos.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.duleo {
+  background: url("./duleo.jpg");
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ff6634;
+}
+
+.limonadas {
+  background: url("./limonadas.jpg");
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffdb91;
+}
+
+.sorte {
+  background: url("./sorte.png");
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #00309b;
+}
+
+.quintal {
+  background: url("./quintal.jpeg");
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.formando-craques {
+  display: flex;
+}
+
+.formando-craques > img {
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.formando-craques > p {
+  width: 30%;
+  margin: 0;
+}
+
+.endereco > iframe {
+  width: 100%;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.endereco {
+  margin-bottom: 70px;
+}
+
+footer {
+  padding: 50px 150px;
+  background-color: black;
+  color: white;
+}
+
+footer > h3 {
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.rodape {
+  display: flex;
+  align-items: end;
+}
+
+.rodape-col {
+  width: 30%;
+}
+
+.menu {
+  width: 70%;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.social > p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.redes-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
